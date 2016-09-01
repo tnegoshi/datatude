@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Datatude</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+    <div align='center'>
+
+    <div class='jumbotron'>
+    <h1>Datatude</h1>
+    <h3>Your Src For All Things Music</h2>
+
+    <form class='form-horizontal'>
+    <h2>Track</h1><input type="text" id='trackInput' value="">
+    <h2>Artist</h1><input type="text" id='artistInput' value="">
+    <br>
+    <br>
+    <button type="button" id='searchButton' name="button">Initiate Song Search</button>
+    </form>
+    </div>
+
+    <h1>Results</h1>
+    <br>
+    <br>
+    <img src="" id="albumImage"/>
+
+    <table class="table table-hover">
+
+    <br>
+    <br>
+    <tr>
+      <th><h3>Song</h3></th>
+      <th><h3>Artist</h3></th>
+      <th><h3>Album</h3></th>
+      <th><h3>Summary</h3></th>
+    </tr>
+    <tr>
+      <td><h4 id="trackName"></h4></td>
+      <td><h4 id="artistName"></h4></td>
+      <td><h4 id='trackAlbum'></h4></td>
+      <td><h4 id="trackSummary"></h4></td>
+    </tr>
+    </div>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+
+    <div id="search-container"></div>
+
+    <div id="player" style='display: none;'></div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="auth.js"></script>
+
+    </div>
+    </div>
+  </body>
+</html>
