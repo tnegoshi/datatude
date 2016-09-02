@@ -2,7 +2,9 @@
   "name": "datatude",
   "version": "1.0.0",
   "description": "jquery + ajax webpage pulling data from last.fm api and youtube api",
-  "main": "app.js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
